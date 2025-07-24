@@ -1,0 +1,44 @@
+{
+  "name": "nse-api",
+  "version": "1.0.0",
+  "description": "package to integrate rfq mechanism for securities buy and sell",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "local": "tsc --watch",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [
+    "rfq",
+    "nse",
+    "bse",
+    "cbricks",
+    "c",
+    "brick",
+    "seebrick",
+    "quote",
+    "market",
+    "stock",
+    "securities",
+    "buy",
+    "sell",
+    "request",
+    "trading",
+    "trade"
+  ],
+  "author": "Prateek Bhaskar",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
