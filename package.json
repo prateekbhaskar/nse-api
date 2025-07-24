@@ -1,5 +1,5 @@
 {
-  "name": "nse-api",
+  "name": "@prateekbhaskar/nse-api",
   "version": "1.0.0",
   "description": "package to integrate rfq mechanism for securities buy and sell",
   "main": "dist/index.js",
@@ -10,6 +10,9 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -34,6 +37,10 @@
     "trading",
     "trade"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prateekbhaskar/nse-api"
+  },
   "author": "Prateek Bhaskar",
   "license": "MIT",
   "devDependencies": {
